@@ -6,5 +6,5 @@ from Game import *
 player = Player("Dawid")
 game = Game(player)
 
-game.start()
-
+if __name__ == "__main__":
+    game.start()
